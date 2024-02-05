@@ -10,9 +10,9 @@ Usage :-
 Add this lines to your cm.mk or device.mk
 ```
 ## Replace link with your own 
-PRODUCT_PROPERTY_OVERRIDES += ro.updater.uri=https://raw.githubusercontent.com/Grace5921/OtaUpdater/master/Updater.xml
+PRODUCT_PROPERTY_OVERRIDES += ro.updater.uri=https://raw.githubusercontent.com/derpfestoscar/OtaUpdater/master/Updater.xml
 ## This is for old builds 
-PRODUCT_PROPERTY_OVERRIDES += ro.updater.oldrelease.url=https://raw.githubusercontent.com/Grace5921/OtaUpdater/master/updater-old-release.json 
+PRODUCT_PROPERTY_OVERRIDES += ro.updater.oldrelease.url=https://raw.githubusercontent.com/derfestoscar/OtaUpdater/master/updater-old-release.json 
 PRODUCT_PROPERTY_OVERRIDES += ro.rom.version=$(shell date +%Y%m%d)
 ## Set it true if you want toast like service started
 PRODUCT_PROPERTY_OVERRIDES += ro.otaupdate.enable_toast=true
